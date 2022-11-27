@@ -1,0 +1,97 @@
+====================
+    11-27-2022     
+====================
+
+* frameworks/base
+42bb057  SystemUI: Allow limiting AOD & ambient display refresh rate (idoybh)  [youngherna]
+
+
+====================
+    11-26-2022     
+====================
+
+* build/soong
+993a0bf  Add deviceclean for minimal cleaning  [Alberto97]
+
+
+* frameworks/base
+cb26218  base: Add support for UI Styles  [El Dainosor]
+
+
+* frameworks/native
+3e2512c  SF: Allow force fallback to Light HAL for brightness  [Jesse Chan]
+6c80745  Revert "SurfaceFlinger: Disable early release optimization"  [Adithya R]
+
+
+* packages/apps/DerpLauncher
+2ba5149  DerpLauncher: Taskbar: Follow light/dark settings  [minaripenguin37]
+
+
+* packages/apps/DerpSpace
+0b34b42  DerpSpace: Add support for UI Styles  [El Dainosor]
+
+
+* packages/apps/Settings
+303184c  Settings: Avoid enforcing weird backgrounds  [El Dainosor]
+
+
+* packages/modules/Bluetooth
+b3dff48  [RE-PICK] controller: Optionally disable LE_READ_BUFFER_SIZE_V2 and  LE_SET_HOST_FEATURE  [SGCMarkus]
+
+
+* system/sepolicy
+1df74fd  allow to build permissive recovery  [klozz]
+
+
+* vendor/derp
+ee95709  soong: Optionally disable Bluetooth LE_READ_BUFFER_SIZE_V2 and SET_HOST_FEATURE  [Kujou Yuko]
+
+
+* vendor/overlay
+a8b110d  overlay: Import UIStyles from Bootleggers  [El Dainosor]
+
+
+====================
+    11-25-2022     
+====================
+
+* packages/resources/devicesettings
+4176551  Automatic translation import  [Michael Bestas]
+
+
+* vendor/gms
+bf9c8a9  Extend Rebrand of PixelSetupWizard to more translations  [NurKeinNeid]
+
+
+* vendor/support
+fe369b9  support: add CustomSeekbarPrefs  [SpiritCroc]
+
+
+====================
+    11-24-2022     
+====================
+
+* art
+a34bd4a  Update concurrent start bytes when app switches from background to foreground.  [qiubowen]
+
+
+* frameworks/av
+4ec81cb  Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB  [SGCMarkus]
+
+
+====================
+    11-23-2022     
+====================
+
+* device/generic/common
+e9374e0  Compile guard aosp apns conf in gsi product  [Tom Pratt]
+
+
+* manifest
+f979abe  manifest: Track forked device/generic/common  [Tom Pratt]
+
+
+* packages/services/Telecomm
+2e19807  Telecomm: Enable Incall vibration options by default  [NurKeinNeid]
+
+
